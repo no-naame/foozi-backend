@@ -1,5 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import { LangChain } from 'langchain';
 import { VectorDbService } from '../vector-db/vector-db.service';
 import { RestaurantService } from '../restaurant/restaurant.service';
